@@ -6,7 +6,7 @@ import LogoReact from '../components/LogoReact';
 
 export default function Index() {
   return (
-    <SafeAreaView className="flex-1 items-center justify-center bg-purple-200 p-6">
+    <SafeAreaView className="flex-1 items-center justify-center bg-blue-600 p-6">
       <View className="flex-row items-center gap-6">
         <LogoReact width={96} height={96} />
         <LogoNativeWind width={96} height={96} />
