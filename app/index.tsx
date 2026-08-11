@@ -2,11 +2,13 @@ import React from 'react';
 import { Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import LogoNativeWind from '../components/LogoNativeWind';
+import LogoReact from '../components/LogoReact';
 
 export default function Index() {
   return (
     <SafeAreaView className="flex-1 items-center justify-center bg-purple-200 p-6">
-      <View className="flex-row items-center gap-4">
+      <View className="flex-row items-center gap-6">
+        <LogoReact width={96} height={96} />
         <LogoNativeWind width={96} height={96} />
       </View>
 
