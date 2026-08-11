@@ -1,6 +1,7 @@
+
 # react-native-nativewind-boilerplate
 
-Minimal Expo + NativeWind boilerplate configured to use `className` via NativeWind and `react-native-svg` logos.
+Minimal Expo boilerplate ready to start a React Native project using NativeWind for utility-first styling.
 
 Quick start
 
@@ -12,13 +13,7 @@ npm install
 yarn install
 ```
 
-2. Install peer native modules (if using Expo managed workflow they are installed via `expo install`)
-
-```bash
-npx expo install react-native-svg
-```
-
-3. Start the app (clear Metro cache)
+2. Start the app (clear Metro cache)
 
 ```bash
 EXPO_DEBUG=1 npx expo start --tunnel -c
@@ -31,11 +26,9 @@ npx localtunnel --port 19000
 ```
 
 Notes
-- App uses `nativewind` Babel + Metro integration (see `babel.config.js` and `metro.config.js`).
-- Logos/components:
-  - `components/LogoReact.tsx` — React logo (react-native-svg primitives)
-  - `components/LogoNativeWind.tsx` — NativeWind logo (react-native-svg primitives)
-- The SVG asset `assets/logo-nativewind.svg` is kept for reference but the components render with `react-native-svg`.
+- App is preconfigured for NativeWind (see `babel.config.js` and `metro.config.js`).
+- Logos/components are available in the `components/` folder for reference.
+- The SVG asset `assets/logo-nativewind.svg` is kept for reference.
 
 Requirements
 - Node >= 18
@@ -43,6 +36,7 @@ Requirements
 
 License
 - MIT
+
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
