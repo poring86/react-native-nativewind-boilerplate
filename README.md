@@ -27,8 +27,6 @@ npx localtunnel --port 19000
 
 Notes
 - App is preconfigured for NativeWind (see `babel.config.js` and `metro.config.js`).
-- Logos/components are available in the `components/` folder for reference.
-- The SVG asset `assets/logo-nativewind.svg` is kept for reference.
 
 Requirements
 - Node >= 18
