@@ -9,10 +9,14 @@ export default function Index() {
         <Image
           source={{ uri: 'https://via.placeholder.com/96x96.png?text=NW' }}
           className="w-24 h-24 rounded-full"
+          style={{ width: 96, height: 96, borderRadius: 9999 }}
+          resizeMode="cover"
         />
         <Image
           source={{ uri: 'https://via.placeholder.com/96x96.png?text=RN' }}
           className="w-24 h-24 rounded-full"
+          style={{ width: 96, height: 96, borderRadius: 9999 }}
+          resizeMode="cover"
         />
       </View>
 
