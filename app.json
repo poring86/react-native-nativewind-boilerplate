@@ -41,6 +41,8 @@
           }
         }
       ]
+      ,
+      "./plugins/with-packaging-options.js"
     ],
     "experiments": {
       "typedRoutes": true,
