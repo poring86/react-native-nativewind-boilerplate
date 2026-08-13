@@ -1,0 +1,21 @@
+# Ensure native Android folder is included in EAS upload
+!android/**
+
+# Default ignores (keep common noisy files excluded)
+node_modules/
+.expo/
+.expo-shared/
+.env
+.env.*
+*.local
+metro-cache/
+node_modules/.cache/
+npm-debug.log
+yarn-error.log
+*.tgz
+dist/
+build/
+.vscode/
+.DS_Store
+/.idea/
+.cache
